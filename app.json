@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/product/index",
+    "pages/shoppingCar/index",
+    "pages/my/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "HomeFacial Pro",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "backgroundColor":"#000",
+    "color":"#ccc",
+    "selectedColor":"#fff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"./image/footbar/home_set.png",
+        "selectedIconPath":"./image/footbar/home.png"
+      },
+      {
+        "pagePath":"pages/index/index",
+        "text":"产品",
+        "iconPath":"./image/footbar/product_set.png",
+        "selectedIconPath":"./image/footbar/product.png"
+      },
+      {
+        "pagePath":"pages/index/index",
+        "text":"购物车",
+        "iconPath":"./image/footbar/shoppingcart_set.png",
+        "selectedIconPath":"./image/footbar/shoppingcart.png"
+      },
+      {
+        "pagePath":"pages/index/index",
+        "text":"我的",
+        "iconPath":"./image/footbar/my_set.png",
+        "selectedIconPath":"./image/footbar/my.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+<view  class="slides">
+  <swiper autoplay="true" indicator-dots="true" interval="3000" circular="true">
+    <swiper-item wx:for="{{swipterList}}" wx:key="{{index}}">
+      <navigator class="">
+        <image class="images" src="{{item.image}}" />
+      </navigator>
+    </swiper-item>
+  </swiper>
+</view>

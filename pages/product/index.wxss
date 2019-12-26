@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    flex: 1;
+    height: 100vh;
+    border-right: 3rpx solid #f0f0f0;
+}
+.main{
+    flex: 4;
+}
+.item{
+    height: 80rpx;
+    line-height: 80rpx;
+    color: #333;
+    font-size: 28rpx;
+    background: #f0f0f0;
+    text-align: center;
+    border-left:4rpx solid transparent;
+}
+.active{
+    border-left:4rpx solid #333;
+    color: #999;
+    background: #fff;
+}
+.mian_item{
+    display: flex;
+    justify-content: space-between;
+    padding: 20rpx;
+}
+.product_img{
+    width: 100rpx;
+    height: 100rpx;
+}
+.name{
+    font-size: 28rpx;
+}
+.desc{
+    font-size: 24rpx;
+    color: #999;
+}

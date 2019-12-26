@@ -1,0 +1,17 @@
+<view class="flex">
+    <view class="menu">
+        <view wx:for="{{menuList}}" wx:key="{{index}}" class="item {{item.id == currentId?'active':''}}" data-id="{{item.id}}" bindtap="clicked">
+            {{item.name}}
+        </view>
+    </view>
+    <view class="main">
+        <view wx:for="{{productList}}" wx:key="{{index}}" class="mian_item">
+            <image src="{{item.img}}" class="product_img"></image>
+            <view>
+                <view class="name">{{item.name}}</view>
+                <view class="desc">{{item.desc}}</view>
+            </view>
+            <view>￥{{item.price}}</view>
+        </view>
+    </view>
+</view>
